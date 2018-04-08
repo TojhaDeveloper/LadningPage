@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url('https://wallpaperbrowse.com/media/images/High-Definition-Ultra-HD-Wallpaper.jpg') no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.content h1 {
+   font-family: 'Raleway', sans-serif;
+   color: #F9F3F4;
+   text-shadow: 0px 0px 300px #000;
+   font-size : 500%;
+}
+
+.btn {
+    text-decoration: none;
+    border : solid #036AB1 3px;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    font-size: 135%;
+    color: #036AB1;
+    padding : 10px 20px;
+    border-radius: 11px;
+}
+
+.btn:hover{
+   color: #F5F5F5;
+   border: solid #F5F5F5 4px;
+}
+
+p {
+    font-family: sans-serif;
+    line-height: 210%;
+    text-align: justify;
+    font-size: 160%;
+    margin: 3%;
+}
